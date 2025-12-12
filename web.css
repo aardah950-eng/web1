@@ -39,3 +39,25 @@ a {
     width: min(90%, 1200px);
     margin: 0 auto;
 }
+.section-title {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+
+.header {
+    background: url("image/bg.png") center/cover no-repeat;
+    padding-bottom: 2.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
