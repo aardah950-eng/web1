@@ -1,6 +1,19 @@
-.footer {
-    background-color: #111111;
-    color: #ffffff;
-    padding: 3rem 0 1.5rem;
-    margin-top: 1rem;
+:root {
+    --primary: #00c8d2;
+    --dark-text: #111111;
+    --light-text: #666666;
+    --card-border: #dddddd;
+    --bg-light: #f8f8f8;
+}
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
