@@ -17,3 +17,25 @@ html {
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    color: var(--dark-text);
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: min(90%, 1200px);
+    margin: 0 auto;
+}
