@@ -214,3 +214,29 @@ a {
     align-items: center;
     padding: 3rem 0;
 }
+.about-text p {
+    margin-bottom: 1rem;
+    color: var(--light-text);
+}
+
+
+
+.featured-scroll {
+    display: flex;
+    gap: 1.2rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.featured-scroll::-webkit-scrollbar {
+    height: 0.6rem;
+}
+
+.featured-scroll::-webkit-scrollbar-track {
+    background-color: #eeeeee;
+}
+
+.featured-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 2rem;
+}
