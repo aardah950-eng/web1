@@ -61,3 +61,33 @@ a {
     justify-content: space-between;
     padding: 1rem 0;
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.logo img {
+    width: 3.2rem;
+}
+
+.logo-main {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.logo-sub {
+    font-size: 0.85rem;
+    color: var(--light-text);
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.nav a {
+    position: relative;
+    font-weight: 500;
+}
