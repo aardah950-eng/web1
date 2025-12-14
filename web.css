@@ -367,3 +367,28 @@ a {
     font-size: 3rem;
     color: #e0e0e0;
 }
+.review-card h3 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.4rem;
+}
+
+.review-card p {
+    font-size: 0.92rem;
+    color: var(--light-text);
+    margin-bottom: 0.8rem;
+}
+
+
+
+.digital {
+    margin-top: 3rem;
+    background: url("image/banner.jpg") center/cover no-repeat;
+}
+
+.digital-overlay {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.1));
+}
+
+.digital-inner {
+    padding: 4rem 0;
+}
