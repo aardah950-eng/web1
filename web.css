@@ -292,3 +292,21 @@ a {
     color: var(--light-text);
     text-decoration: line-through;
 }
+.arrivals {
+    padding: 3rem 0 1rem;
+}
+
+.arrival-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1.3rem;
+}
+
+.arrival-card {
+    background-color: #ffffff;
+    border-radius: 0.6rem;
+    border: 0.07rem solid var(--card-border);
+    padding: 1rem 1rem 1.3rem;
+    text-align: center;
+    box-shadow: 0 0.1rem 0.55rem rgba(0, 0, 0, 0.04);
+}
