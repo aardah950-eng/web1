@@ -62,7 +62,7 @@
             </div>
         </section>
     </header>
-    <section class="features container">
+    <section class="features container" id="featured">
 
         <article class="feature-box">
             <i class="fa-solid fa-truck-fast"></i>
@@ -88,7 +88,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </article>
 
-    </section>
+    
 
     </section>
      <section class="about container" id="about">
@@ -266,6 +266,7 @@
             </article>
         </div>
     </section>
+</sectoin>
     <section class="arrivals container" id="arrivals">
         <h2 class="section-title">New Arrivals</h2>
 
@@ -586,7 +587,12 @@
             Design by <span>Ahmad &amp; Abdallah</span>
         </p>
     </footer>
-
+      <script>
+        const toggleBtn = document.querySelector(".dark-toggle");
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+        });
+    </script>
     
 </body>
 </html>
