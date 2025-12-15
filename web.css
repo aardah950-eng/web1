@@ -544,3 +544,41 @@ a {
     .about {
         grid-template-columns: 1fr;
     }
+    .features {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .arrival-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .review-grid,
+    .blog-grid,
+    .footer-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none; 
+    }
+
+    .features {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .arrival-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .review-grid,
+    .blog-grid,
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        gap: 1.5rem;
+    }
+}
