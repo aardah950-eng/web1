@@ -582,3 +582,11 @@ a {
         gap: 1.5rem;
     }
 }
+@media (max-width: 576px) {
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .arrival-grid {
+        grid-template-columns: 1fr;
+    }
