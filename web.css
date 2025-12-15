@@ -441,3 +441,61 @@ a {
     color: var(--light-text);
     margin-bottom: 0.8rem;
 }
+.blog-icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: var(--primary);
+}
+
+
+
+.footer {
+    background-color: #1111112d;
+    color: #ffffff;
+    padding: 3rem 0 1.5rem;
+    margin-top: 1rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr 2fr;
+    gap: 2rem;
+}
+
+.footer-logo {
+    width: 4rem;
+    margin-bottom: 0.7rem;
+}
+
+.footer-col h3 {
+    margin-bottom: 0.7rem;
+    font-size: 1.1rem;
+}
+
+.footer-col p {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+.footer-col a {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    color: #dddddd;
+}
+
+.footer-col a:hover {
+    color: var(--primary);
+}
+
+.footer-social {
+    display: flex;
+    gap: 0.7rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter-title {
+    margin-top: 1rem;
+}
